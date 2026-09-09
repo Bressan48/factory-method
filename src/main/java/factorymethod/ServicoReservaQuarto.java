@@ -1,6 +1,6 @@
 package factorymethod;
 
-public class ServicoReservaQuarto {
+public class ServicoReservaQuarto implements IServico{
 
     public String executar() {
         return "Reserva bem-sucedida!";
